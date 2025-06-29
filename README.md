@@ -1,9 +1,9 @@
 # stalker_cs_compass_fix
-Stalker CS Compass artifact fix
+This will help you prevent the Compass Artifact from being permanently given to the Forester NPC
 
 [DISCLAIMER]
 This is a simple fix for those who want to keep the Compass artifact past the "find compass" forester npc's mission in the Red Forest.
-This was tested on the Steam version of S.T.A.L.K.E.R. Clear Sky, not the enhanced version, and entirely vanilla
+This was tested on the Windows Steam version of S.T.A.L.K.E.R. Clear Sky, not the enhanced version, and entirely vanilla
 
 [INSTRUCTIONS]
 Simply open your game profile page on steam in your lirbary, rclick on the name STALKER Clear Sky, click on "Manage", then "Browse local files". 
@@ -15,7 +15,7 @@ Enjoy playing the game!
 
 
 [IF IT STILL DOESN'T WORK]
-If it doesn't work, try changing the fsgame.ltx file with a simple text editor.
+If it doesn't work, try changing the fsgame.ltx file in your root folder (where you dropped the gamedata folder) with a simple text editor.
 Turn this line:
 $game_data$             = false| true|  $fs_root$|            gamedata\
 into this:
