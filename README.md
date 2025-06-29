@@ -9,6 +9,29 @@ This was tested on the Windows Steam version of S.T.A.L.K.E.R. Clear Sky, not th
 Simply open your game profile page on steam in your lirbary, rclick on the name STALKER Clear Sky, click on "Manage", then "Browse local files". 
 You will have to drag and drop the gamedata and its subfolders that you downloaded from here in there, and it should be good for the "technical" part.
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+IF YOU ALREADY HAVE THE dialogs_redforest.xml FILE, HERE IS WHAT YOU WILL NEED TO CHANGE IN IT:
+Turn this:
+<phrase id="1">
+    <text>red_forester_has_compas_1</text>
+    <action>dialogs_red_forest.give_compass</action>
+    <action>dialogs_red_forest.forester_reward_for_compass</action>
+    <give_info>red_forester_take_compas</give_info>
+    <next>11</next>
+</phrase>
+
+Into this:
+<phrase id="1">
+    <text>red_forester_has_compas_1</text>
+    <!-- COMPASS BYPASS. this line is here to help you find what's been modified if you need it later-->
+     <!-- <action>dialogs_red_forest.give_compass</action> -->
+    <action>dialogs_red_forest.forester_reward_for_compass</action>
+    <give_info>red_forester_take_compas</give_info>
+    <next>11</next>
+</phrase>
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 Now simply run the game, save right before interacting with the forester npc just in case, then complete the mission. 
 It should be completed and continue to the npc's next dialog line, with him giving you his Vintar VC while not taking your Compass artifact
 Enjoy playing the game!
